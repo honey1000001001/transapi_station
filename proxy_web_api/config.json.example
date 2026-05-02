@@ -1,0 +1,10 @@
+{
+  "api_key": "sk-deepseek2api",
+  "accounts": [
+    {
+      "email": "user@example.com",
+      "password": "your-deepseek-password",
+      "token": ""
+    }
+  ]
+}

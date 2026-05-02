@@ -1,0 +1,47 @@
+# === Secrets & Environment ===
+.env
+.env.local
+.env.production
+*.pem
+*.key
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+.venv/
+*.db
+*.sqlite
+*.sqlite3
+.pytest_cache/
+
+# === Node.js ===
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# === Logs ===
+*.log
+logs/
+
+# === IDE & OS ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === proxy_web_api ===
+proxy_web_api/venv/
+proxy_web_api/__pycache__/
+proxy_web_api/config.json
+proxy_web_api/test_*.py
+proxy_web_api/reference_project/
+
+# === Hermes agent context files (AI dev context, not for git) ===
+.hermes/
+.hermes.md
